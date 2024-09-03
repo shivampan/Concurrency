@@ -12,5 +12,6 @@ public class Main {
             NumberPrinter numberPrinter = new NumberPrinter(i);
             executor.execute(numberPrinter);
         }
+        executor.shutdown();
     }
 }
